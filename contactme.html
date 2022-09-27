@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<style>
+    #form{
+        text-align: center;
+        background-color: grey;
+        
+    }
+    #contactme {
+        background-color: antiquewhite;
+    }
+    .rqd {
+        color: red;
+    }
+    textarea {
+        width: 250px; height: 250px;
+        max-width: 250px; max-height: 250px;
+    }
+    #submit {
+        background-color: rgb(112, 46, 46);
+        color: white;
+    }
+</style>
+<body>
+    <h1>contact me</h1>
+    <div id="form" action="#" method="post">
+        <label for="my name">name:</label>
+        <input type="text" name ="my name" id="my name" required>
+
+        <input type="text" name="subject" id="subject" required>
+        <label for="subject">subject</label>
+        <textarea name="tbody" id="tbody"></textarea>
+        <span class="rqd">*</span>
+        <br /><label for="priority">Priority</label><br />
+        <select name="priority" id="priority">
+            <option disabled selected value>-- Select an Option--</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+            <option value="crit">Critical</option>
+        </select><br /><br />
+        <input type="radio" name="flwup" id="flwup" value="yes"/>yes
+        <input type="radio" name="flwup" id="flwup" value="no"/>no
+        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+        
+    </form>
+    
+</body>
+</html>
