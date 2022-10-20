@@ -39,6 +39,9 @@ nav li {
 		display: block;
 	}
 	nav ul{ margin-bottom: 0.5em;}
+	.desktop {
+		display: none;
+	}
 }
 
 /* Style changes navigation link text color to white and remove the underline*/
@@ -159,6 +162,9 @@ footer {
 		border-radius: 1em;
 		box-shadow: 1em 1em 1em #331400;
 		margin-top: 1em;
+	}
+	.mobile {
+		display: none;
 	}
 }
 
