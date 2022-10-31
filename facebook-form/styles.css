@@ -1,0 +1,13 @@
+
+    
+#form {
+  margin: 0 auto;
+  padding: 30px 15px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #edf0f5;
+  width: 50%;
+}
+#lastname {
+    float:right;
+}
