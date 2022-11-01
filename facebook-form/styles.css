@@ -8,6 +8,20 @@
   background-color: #edf0f5;
   width: 50%;
 }
-#lastname {
-    float:right;
+#sign {
+  text-align: left;
+  
 }
+form {
+  min-width: 450px; margin-bottom: 20px;
+}
+#firstname {float: left; width:100px}
+#lastname {float: left; width: 100px;}
+#email{ float: left; margin-top:-10px; width: 208px;}
+#reenteremail {float: left; width: 208px;}
+#NewPassword {float: left; width: 208px; margin-top: -10px;}
+#month{ float: left;} #day {float: left;} #year {float: left;} #why {margin-left: -200px;}
+
+
+
+
