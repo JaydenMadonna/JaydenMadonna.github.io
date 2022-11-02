@@ -20,7 +20,7 @@
             <input id="email" type="text" name="email" placeholder="Your Email..."><br/>
             <input id="reenteremail" type="text" name="reenteremail" placeholder="Re-enter Email"><br/><br/>
             <input id="NewPassword" type="text" name="NewPassword" placeholder="New Password"><br/>
-            <label for="month">Birthday</label>
+            <label id="birth" for="month">Birthday</label><br/>
             <select id="month" name="month" required>
             
                 <option>Jan</option>
@@ -83,11 +83,17 @@
                 <option>2008</option>
                 <option disabled selected value> Year</option>
             </select><br/>
-            <p id="why"><a href="#"> Why do I have to give my birthday</a></p>
+            <p id="why"><a href="#">why do I have to give my birthday</a></p>
+            <input type="radio" name="Male" id="Radio" value="Male"/>
+            <label for="male" class="male">Male</label>
+            <input type="radio" name="Female" id="Radio" value="Female"/>
+            <label for="Female" class="Female">Female</label><br/>
+            <p id="police"><small>by clicking Sign up you agree to our<br/><a href="#">Terms</a> and that you have read our<br/> <a href="#">data use policy</a> including our <a href="#">Cookies use</small></a></p> 
 
        
         </form>
     </div>
+    <input type="submit" value="Sign Up" id="sbutton"/>
     
 </body>
 </html>
