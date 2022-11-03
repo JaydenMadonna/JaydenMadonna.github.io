@@ -20,13 +20,20 @@ form {
 #reenteremail {float: left; width: 208px;}
 #NewPassword {float: left; width: 208px; margin-top: -10px;}
 #month{ float: left;} #day {float: left;} #year {float: left;} #why {margin-left: -200px;}
-<<<<<<< HEAD
 #birth {float: left;}
 #Radio{margin-left: -200px; text-decoration: none;}
 label {font-size: medium;}
 #police{float: left; margin-left:25px;}
-#sbutton {margin-left: -150px; font-size: 24px; background-color:#659d50 ;}
 *{margin: 0 auto;}
+#sbutton {
+  margin-left:160px;
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 10px;
+background-color: #659d50;
+color: white
+}
 
 
 
