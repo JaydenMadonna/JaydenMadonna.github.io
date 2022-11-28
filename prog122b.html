@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="hourly">Your Hourly pay:</label>
+    <input type="number" id="hourly" name="hourly">
+    <button onclick="calc();">Calculate</button>
+    <p id="out"></p>
+    <script>
+        function calc() {
+        var msg = "Your   hourly pay <br/>";
+        var lcv = 1; 
+        while (lcv <= 50) {
+            msg += lcv 
+            lcv++;
+              
+        }
+        document.getElementById("out").innerHTML = msg;
+        }
+
+    </script>
+</body>
+</html>
