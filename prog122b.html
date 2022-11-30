@@ -12,17 +12,18 @@
     <button onclick="calc();">Calculate</button>
     <p id="out"></p>
     <script>
-        function calc() {
-        var msg = "Your   hourly pay <br/>";
-        var lcv = 1; 
-        while (lcv <= 50) {
-            msg +
-            lcv++;
-              
-        }
-        document.getElementById("out").innerHTML = msg;
+       function calc() {
+        var hourly = document.getElementById("hourly").value;
+        hourly = Number(hourly);
+        var lcv = 1;
+        while (lcv <= 25) {
+            msg += lcv + "      " + (lcv * hourly)
         }
 
+
+        
+       }
+       document.getElementById("out").innerHTML =msg;
     </script>
 </body>
 </html>
