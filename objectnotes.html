@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notes on objects in JS</title>
+</head>
+<body>
+    <script>
+        var hotel = {
+            name: "Holiday Inn",
+            rooms: 50,
+            booked: 30,
+            checkAvailable: function() {
+                return this.rooms-this.booked
+            }
+        };
+        document.write(hotelp["name"] + "<br/>");
+        document.write("Rooms: " + hotel.rooms + "<br/>");
+        document.write("Available: " + hotel.checkAvailable() + "<br/>");
+
+        function Hotel(name, rooms, booked) {
+            this.name = name;
+            this.rooms = rooms;
+            this.booked = booked;
+            this.checkAvailable = function() {
+                return this.rooms - this.booked;
+            };
+               
+            
+        }
+        var hotel2 = new Hotel("Microtel", 25, 5);
+        document.write("Name: " + hotel2.name + "<br/>");
+        document.write("Rooms available: " + hotel2.checkAvailable() + "<br/>");
+    </script>
+    
+</body>
+</html>
