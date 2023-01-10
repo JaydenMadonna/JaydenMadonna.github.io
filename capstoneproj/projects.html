@@ -6,10 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>My projects</title>
+    <title>Portfolio</title>
 </head>
 <body>
   <h1 id="past">My past Projects:</h1>
+    <!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <img src="../images/Screenshot 2022-12-20 111845.png" alt="Nature" width="150" height="150" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../images/IMG_0567.jpeg" alt="Snow" width="150" height="150" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../images/Screenshot 2022-12-21 110708.png" alt="Mountains" width="150" height="150" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../images/IMG_0983.jpeg" alt="Lights" width="150" height="150" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" >
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
   <div id="table">
     
         
