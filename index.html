@@ -1,50 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta lang="en">
-    <meta viewport="width=device-width, initial-scale=1">
-    <title>Title</title>
-    <!--<link rel="stylesheet" href="css/style.css">-->
-    <!--<source src="js/script.js" defer>-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/capstoneproj/js/script.js" defer></script>
+    <link rel="stylesheet" href="/capstoneproj/css/style.css">
+    <title>Index</title>
 </head>
-<style>
-    body {
-        font-family: Arial;
-    }
-    h1, h2, h3 {
-        font-family: Helvetica;
-    }
-    a {
-        color:green;
-        font-weight: bold;
-    }
-    div {
-        background-color:  rgb(139, 40, 206);
-        /* could also be write color as: color: #8B28CE;
-        */
-    }
-    #maindiv {
-        background-color: rgb(236, 9, 9);
-    }
-   
-</style>
-<body>
-    <div id="maindiv">
-    <h1>This is my first webpage</h1>
-    <p>Hello, World!</p>
+<body id="index">
+    <h1> A little about me</h1>
+    <p id="me">Hello! My name is Jayden im and some of my hobbies include Video games,<br/>
+    doing puzzels, and skateboarding.</p></br><br/>
+
+    <p id="work">Right now I am currently work on developing websites for charities and or upincoming games.<br/>
+    Im very skilled at what I do so if I encounter a problem I know i can alwasy overcome it(ill Google it).</p><br/>
     
-    <h2>This is a subheading</h2>
-    <p>extra text</p>
+
+
+    <form action="#" method="post" id="contactform">
+    <div id="contact">
+        <h1> Contact me</h1>
+    <label for="yourname">First and Last name:</label><br/>
+    <input type="text" name="yourname" id="yourname" required><br/><br/>
+    <label for="email">Your email:</label><br/>
+    <input type="text" id="email" name="email"><br/><br/>
+    <label for="why">Why you want to contact me:</label><br/>
+    <input type="text" id="why" name="why"><br/><br/>
+    <button onclick="alert('Successfully submitted');">Submit</button>
+
     </div>
- <div>
-    <h1> Class Files</h1>
-    <ul>
-        <li></li>
-    </ul>
+    </form>
+    
+
+
+    <br/><br/><br/>
+    <div id="viewmore" class="navbar">
+        <a href="../capstoneproj/about.html"
+        class="active"><b>About me</b></a>
+        <a href="../capstoneproj/projects.html"> 
+            <b>Portfolio</b></a>
+            <a href="https://github.com/JaydenMadonna/JaydenMadonna.github.io"> 
+                <b>BTS</b>
     </div>
-    <img src= "images/Cat03.jpg"
-    alt="some cat"
-    height="250" width="250">
+    
 </body>
-</html>   
+</html>
+
+<!--https://app.moqups.com/jmZpfXDPc9OCSdRX09BUppzedZnY5nSb/edit/page/a1d11274c-->
